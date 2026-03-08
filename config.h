@@ -96,32 +96,32 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-	"#091f2e", /* 0: black   (Base 2) */
-	"#c23127", /* 1: red     (Red)    */
-	"#2aa889", /* 2: green   (Green)  */
-	"#edb443", /* 3: yellow  (Yellow) */
-	"#195466", /* 4: blue    (Blue)   */
-	"#888ca6", /* 5: magenta (Violet) */
-	"#33859e", /* 6: cyan    (Cyan)   */
-	"#599cab", /* 7: white   (Base 5) */
+	"#0c1014", /* 0: black */
+	"#c23127", /* 1: red */
+	"#2aa889", /* 2: green */
+	"#edb443", /* 3: yellow */
+	"#195466", /* 4: blue */
+	"#4e5166", /* 5: magenta*/
+	"#33859e", /* 6: cyan */
+	"#99d1ce", /* 7: white */
 
 	/* 8 bright colors */
-	"#0a3749", /* 8: br-black  (Base 3) */
-	"#d26937", /* 9: br-red    (Orange) */
-	"#245361", /* 10: br-green (Base 4) */
-	"#ebe8e8", /* 11: br-yellow(Base 7) */
-	"#195466", /* 12: br-blue   (Blue)   */
-	"#4e5166", /* 13: br-magenta(Violet) */
-	"#99d1ce", /* 14: br-cyan   (Base 6) */
-	"#d3ebe9", /* 15: br-white  (Base 7) */
+	"#0a3749", /* 8: br-black */
+	"#d26937", /* 9: br-red */
+	"#091f2e", /* 10: br-green */
+	"#245361", /* 11: br-yellow */
+	"#0a3749", /* 12: br-blue */
+	"#888ca6", /* 13: br-magenta */
+	"#599cab", /* 14: br-cyan */
+	"#d3ebe9", /* 15: br-white */
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-    "#d3ebe9", /* 256: cursor (Base 7) */
-	"#091f2e", /* 257: reverse cursor (Base 2) */
-	"#99d1ce", /* 258: default foreground (Base 6) */
-	"#0c1014", /* 259: default background (Base 0) */
+    "#99d1ce", /* 256: cursor */
+	"#091f2e", /* 257: reverse cursor */
+	"#99d1ce", /* 258: default foreground */
+	"#0c1014", /* 259: default background */
 };
 
 
