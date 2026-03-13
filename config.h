@@ -108,7 +108,7 @@ static const char *colorname[] = {
 	/* 8 bright colors */
 	"#0a3749", /* 8: br-black */
 	"#d26937", /* 9: br-red */
-	"#091f2e", /* 10: br-green */
+	"#33859e", /* 10: was br-green (#091f2e), but this was hard to read (e.g. files with +x in eza) */
 	"#245361", /* 11: br-yellow */
 	"#0a3749", /* 12: br-blue */
 	"#888ca6", /* 13: br-magenta */
